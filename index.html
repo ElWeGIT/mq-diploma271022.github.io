@@ -9,26 +9,57 @@
   </head>
 
   <body>
+    
+    <!-- popup -->
+
     <div class="popup">
       <div class="popup__container">
         <h2 class="aside__title">Ваш фидбек</h2>
         <form class="form">
           <label class="select-group">
-            <span class="select-label">Как часто вы заходите на сайт?
-            </span>
+            <span class="select-label">Как часто вы заходите на сайт? </span>
             <select class="select">
-              
-              <option value="Почти каждый день" selected>Почти каждый день</option>
-              <option value="каждый день">каждый день</option>
-              <option value="незнаю">незнаю</option>
+              <option value="Почти каждый день" selected>
+                Почти каждый день
+              </option>
+              <option value="каждый день">Каждый день</option>
+              <option value="незнаю">Незнаю</option>
             </select>
           </label>
-
         </form>
+
+        <div class="radio-mail">
+          <label class="select-group">
+            <span class="select-label">Вы подписаны на e-mail рассылку? </span>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group" />
+              <span class="radio-group-text">Да</span>
+            </label>
+            <label class="radio-group">
+              <input type="radio" class="radio" name="radio-group" />
+
+              <span class="radio-group-text">Нет</span>
+            </label>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <span class="select-label"
+            >Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span
+          >
+          <textarea
+            class="field-popup"
+            type="text"
+            placeholder="Может, больше рецептов?"
+          ></textarea>
+        </div>
+        <button class="button__post" type="submit">
+          <a href="#0">Подписаться</a>
+        </button>
+        <button class="popup__close" type="button">Закрыть окно</button>
       </div>
-      
-      </div>
-    
+    </div>
+
     <header class="header">
       <div class="container">
         <div class="logo-menu">
@@ -711,6 +742,5 @@
         </div>
       </footer>
     </div>
-  
   </body>
 </html>
