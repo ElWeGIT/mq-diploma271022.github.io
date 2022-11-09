@@ -10,7 +10,6 @@
 
   <body>
     <!-- popup -->
-
     <div class="popup">
       <div class="popup__container">
         <h2 class="aside__title">Ваш фидбек</h2>
@@ -28,7 +27,7 @@
         </form>
 
         <div class="radio-mail">
-          <label class="select-group">
+          <div class="select-group">
             <span class="select-label">Вы подписаны на e-mail рассылку? </span>
             <label class="radio-group">
               <input type="radio" class="radio" name="radio-group" />
@@ -36,29 +35,26 @@
             </label>
             <label class="radio-group">
               <input type="radio" class="radio" name="radio-group" />
-
               <span class="radio-group-text">Нет</span>
             </label>
-          </label>
+          </div>
         </div>
 
         <div class="form-row">
           <span class="select-label"
             >Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span
           >
-          <textarea
+          <textarea>
             class="field-popup"
-            type="text"
-            placeholder="Может, больше рецептов?"
-          ></textarea>
+            placeholder="Может, больше рецептов?"</textarea
+          >
         </div>
-        <button class="button__post" type="submit">
-          <a href="#0">Подписаться</a>
-        </button>
+        <button class="button__post" type="submit">Подписаться</button>
         <button class="popup__close" type="button">Закрыть окно</button>
       </div>
     </div>
 
+    <!-- header -->
     <header class="header">
       <div class="container">
         <div class="logo-menu">
@@ -116,8 +112,7 @@
             </nav>
             <h3 class="card__text">
               <a href="#0">
-                сыры на красивых картинках из интернета: какие они на вкус?</a
-              >
+                сыры на красивых картинках из интернета: какие они на вкус?</a>
             </h3>
           </div>
         </section>
@@ -170,9 +165,7 @@
               <nav class="article__nav">
                 <ul>
                   <li>
-                    <a href="#0"
-                      >Travel</a
-                    >
+                    <a href="#0">Travel</a>
                   </li>
                   <li><a href="#0">Health</a></li>
                 </ul>
@@ -540,8 +533,8 @@
 
           <section class="aside__search">
             <form class="search">
-              <label class="visually-hidden"
-                ><p>нажмите на ссылку "лупа" и начните поиск</p></label
+              <span class="visually-hidden"
+                >нажмите на ссылку "лупа" и начните поиск</span
               >
               <input class="field" type="text" placeholder="Найти..." />
               <button class="button" type="submit"></button>
@@ -553,7 +546,9 @@
             <h3 class="aside__title">Рассылка</h3>
 
             <form class="search">
-              <label class="visually-hidden"><p>введите email-адрес</p></label>
+              <label class="visually-hidden"
+                ><span>введите email-адрес</span></label
+              >
               <input
                 class="field"
                 type="email"
@@ -561,9 +556,8 @@
                 placeholder="Ваш email-адрес"
               />
             </form>
-            <button class="button__post" type="submit">
-              <a href="#0">Подписаться</a>
-            </button>
+
+            <button class="button__post" type="submit">Подписаться</button>
           </section>
 
           <!-- --aside section 4 tags -- -->
@@ -589,22 +583,22 @@
             <h3 class="aside__title">Темы</h3>
             <ul class="topic-list">
               <li>
-                Красота<a href="#0"><span>12</span></a>
+                <a href="#0">Красота<span>12</span></a>
               </li>
               <li>
-                Здоровье<a href="#0"><span>4</span></a>
+                <a href="#0">Здоровье<span>4</span></a>
               </li>
               <li>
-                Образ жизни<a href="#0"><span>145</span></a>
+                <a href="#0">Образ жизни<span>145</span></a>
               </li>
               <li>
-                Музыка<a href="#0"><span>28</span></a>
+                <a href="#0">Музыка<span>28</span></a>
               </li>
               <li>
-                Спорт<a href="#0"><span>62</span></a>
+                <a href="#0">Спорт<span>62</span></a>
               </li>
               <li>
-                Йога<a href="#0"><span>8</span></a>
+                <a href="#0">Йога<span>8</span></a>
               </li>
             </ul>
           </section>
@@ -649,9 +643,7 @@
                   <h3>800</h3>
                 </div>
                 <div class="button__post-items">
-                  <button class="button__post" type="submit">
-                    <a href="#0">в магазин</a>
-                  </button>
+                  <button class="button__post" type="submit">в магазин</button>
                 </div>
               </div>
             </div>
@@ -688,9 +680,7 @@
                   <h3>3500</h3>
                 </div>
                 <div class="button__post-items">
-                  <button class="button__post" type="submit">
-                    <a href="#0">в магазин</a>
-                  </button>
+                  <button class="button__post" type="submit">в магазин</button>
                 </div>
               </div>
             </div>
@@ -729,9 +719,7 @@
                   <h3>400</h3>
                 </div>
                 <div class="button__post-items">
-                  <button class="button__post" type="submit">
-                    <a href="#0">в магазин</a>
-                  </button>
+                  <button class="button__post" type="submit">в магазин</button>
                 </div>
               </div>
             </div>
@@ -745,9 +733,15 @@
     <div class="container">
       <footer class="footer">
         <ul class="media">
-          <li><a href="#0" class="media1"></a></li>
-          <li><a href="#0" class="media2"></a></li>
-          <li><a href="#0" class="media3"></a></li>
+          <li>
+            <a href="#0" class="media1"><span>dribble</span></a>
+          </li>
+          <li>
+            <a href="#0" class="media2"><span>pinterest</span></a>
+          </li>
+          <li>
+            <a href="#0" class="media3"><span>twitter</span></a>
+          </li>
         </ul>
 
         <div class="copyright">
