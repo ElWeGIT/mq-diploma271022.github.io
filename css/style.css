@@ -585,7 +585,7 @@ h6 {
   flex-shrink: 0;
   width: 381px;
   height: 294px;
-  padding-top: 8px;
+  padding-top: 0px;
   z-index: 1;
   position: relative;
 }
@@ -597,7 +597,7 @@ h6 {
   height: 97%;
   background-color: #eff6f1;
   position: absolute;
-  top: 8px;
+  top: 0px;
   z-index: -1;
 }
 /*
